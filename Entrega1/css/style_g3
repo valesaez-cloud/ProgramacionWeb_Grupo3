@@ -110,7 +110,7 @@ h2 {
 }
 
 /* Efecto hover: escala de grises y zoom */
-.categorias:hover img {
+.categorias > div:hover img {
     filter: grayscale(100%);
     transform: scale(1.1);
 }
@@ -162,5 +162,6 @@ footer {
     }
 
 }
+
 
 
