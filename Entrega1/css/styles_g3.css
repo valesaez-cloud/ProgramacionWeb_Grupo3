@@ -40,7 +40,7 @@ header {
  
 /* Ajusta la imagen dentro del header */
 header img {
-    height: 80px;
+    height: 60px;
 }
 
 /* Estilos de la barra de navegación */
@@ -56,8 +56,9 @@ nav a {
 
 h1 {
     color: silver;
-    font-size: 2.5rem;  /* tamaño grande */
+    font-size: 1.5rem;  /* tamaño grande */
     margin-top: 10px;
+    text-align: center;
 }
 
 /* Estilos de los subtítulos */
@@ -92,8 +93,9 @@ h2 {
 
 /* Contenedor de categorías */
 .categorias {
-    display: grind;
+    display: flex;
     justify-content: center;
+    align-items: center; 
     gap: 22px
     margin: 32px auto 56px;
     flex-wrap: wrap;
