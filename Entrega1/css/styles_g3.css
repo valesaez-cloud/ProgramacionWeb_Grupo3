@@ -90,6 +90,7 @@ h2 {
     justify-content: center;
     flex-wrap: wrap;
     padding: 2% 0;
+    text-aling: center;
 }
 
 /* Estilos de cada categoría */
@@ -102,6 +103,7 @@ h2 {
 }
 .categorias > div img {
     display: block;
+    flex: 0 1 220px;
     margin: 0 auto;
     width: auto;
     max-width: 250px;
