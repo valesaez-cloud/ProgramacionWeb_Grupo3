@@ -93,14 +93,14 @@ h2 {
 }
 
 /* Estilos de cada categoría */
-.categoria > div {
+.categorias > div {
     margin: 15px;
     width: 200px;
     border-radius: 20px;
     overflow: hidden;
     cursor: pointer; /* Cambia el cursor al pasar por encima */
 }
-.categoria > div img {
+.categorias > div img {
     display: block;
     margin: 0 auto;
     width: auto;
@@ -110,11 +110,11 @@ h2 {
 }
 
 /* Efecto hover: escala de grises y zoom */
-.categoria:hover img {
+.categorias:hover img {
     filter: grayscale(100%);
     transform: scale(1.1);
 }
-.categoria h3 { 
+.categorias h3 { 
     padding: 10px;
     margin: 0;
     font-size: 1em;
@@ -162,4 +162,5 @@ footer {
     }
 
 }
+
 
