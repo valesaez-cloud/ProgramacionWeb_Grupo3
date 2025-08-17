@@ -93,14 +93,14 @@ h2 {
 }
 
 /* Estilos de cada categoría */
-.categoria {
+.categoria > div {
     margin: 15px;
     width: 200px;
     border-radius: 20px;
     overflow: hidden;
     cursor: pointer; /* Cambia el cursor al pasar por encima */
 }
-.categoria img {
+.categoria > div img {
     display: block;
     margin: 0 auto;
     width: auto;
@@ -162,3 +162,4 @@ footer {
     }
 
 }
+
