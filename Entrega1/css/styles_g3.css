@@ -26,6 +26,7 @@ body {
 
 /* Estilos del encabezado */
 header {
+    background: #000;
     display: flex; /* Usa flexbox para organizar los elementos */
     justify-content: space-between; /* Distribuye los elementos a los extremos */
     align-items: center; /* Alinea los elementos verticalmente */
@@ -40,7 +41,8 @@ header {
  
 /* Ajusta la imagen dentro del header */
 header img {
-    height: 60px;
+    height: 80px;
+    width: auto;
 }
 
 /* Estilos de la barra de navegación */
