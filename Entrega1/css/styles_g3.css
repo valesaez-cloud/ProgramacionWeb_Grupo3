@@ -54,6 +54,12 @@ nav a {
     font-weight: bold;
 }
 
+h1 {
+    color: silver;
+    font-size: 2.5rem;  /* tamaño grande */
+    margin-top: 10px;
+}
+
 /* Estilos de los subtítulos */
 h2 {
     margin-top: 5%;
