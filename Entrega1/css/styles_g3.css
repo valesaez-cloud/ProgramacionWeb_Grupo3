@@ -53,14 +53,6 @@ nav a {
     margin: 0 15px;
     font-weight: bold;
 }
-
-h1 {
-    color: silver;
-    font-size: 1.0rem;  /* tamaño grande */
-    margin-top: 10px;
-    text-align: center;
-}
-
 /* Estilos de los subtítulos */
 h2 {
     margin-top: 5%;
@@ -106,6 +98,7 @@ h2 {
 .categorias > div {
     margin: 15px;
     width: 200px;
+    text-align: center;
     border-radius: 20px;
     overflow: hidden;
     cursor: pointer; /* Cambia el cursor al pasar por encima */
