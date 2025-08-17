@@ -56,7 +56,7 @@ nav a {
 
 h1 {
     color: silver;
-    font-size: 1.5rem;  /* tamaño grande */
+    font-size: 1.0rem;  /* tamaño grande */
     margin-top: 10px;
     text-align: center;
 }
@@ -94,7 +94,6 @@ h2 {
 /* Contenedor de categorías */
 .categorias {
     display: flex;
-    justify-content: center;
     align-items: center; 
     gap: 22px
     margin: 32px auto 56px;
