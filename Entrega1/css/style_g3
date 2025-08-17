@@ -101,7 +101,10 @@ h2 {
     cursor: pointer; /* Cambia el cursor al pasar por encima */
 }
 .categoria img {
-    width: 100%;
+    display: block;
+    margin: 0 auto;
+    width: auto;
+    max-width: 250px;
     border-radius: 20px;
     transition: filter 0.3s ease-in-out, transform 0.3s ease-in-out; /* Agrega transición en hover */
 }
@@ -157,4 +160,5 @@ footer {
     .logo_container span {
         font-size: 1.2em;
     }
+
 }
