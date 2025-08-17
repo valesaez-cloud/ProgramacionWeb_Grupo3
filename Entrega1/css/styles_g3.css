@@ -21,21 +21,21 @@ html, body {
 } 
 
 body {
-    padding-top: 80px; /* Añade espacio en la parte superior para que el contenido no quede oculto por el header */
+    padding-top: 80px;
 }
 
 /* Estilos del encabezado */
 header {
-    display: flex; /* Usa flexbox para organizar los elementos */
-    justify-content: space-between; /* Distribuye los elementos a los extremos */
-    align-items: center; /* Alinea los elementos verticalmente */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     padding: 15px;
-    background: linear-gradient(180deg, rgb(50, 50, 50)); /* Degradado naranja */
-    position: fixed; /* Fija el encabezado en la parte superior */
+    background: linear-gradient(180deg, rgb(50, 50, 50));
+    position: fixed;
     width: 100%;
     top: 0;
     left: 0;
-    z-index: 1000; /* Asegura que esté por encima de otros elementos */
+    z-index: 1000;
 }
  
 /* Ajusta la imagen dentro del header */
@@ -49,7 +49,7 @@ nav {
 }
 nav a {
     color: silver;
-    text-decoration: none; /* Elimina el subrayado de los enlaces */
+    text-decoration: none;
     margin: 0 15px;
     font-weight: bold;
 }
@@ -57,7 +57,7 @@ nav a {
 h2 {
     margin-top: 5%;
     font-size: 1.6em;
-    color: silver; /* Color plomo*/
+    color: silver;
 }
 
 /* Contenedor del logo */
@@ -101,7 +101,7 @@ h2 {
     text-align: center;
     border-radius: 20px;
     overflow: hidden;
-    cursor: pointer; /* Cambia el cursor al pasar por encima */
+    cursor: pointer;
 }
 .categorias > div img {
     display: block;
@@ -112,7 +112,7 @@ h2 {
     width: auto;
     max-width: 250px;
     border-radius: 20px;
-    transition: filter 0.3s ease-in-out, transform 0.3s ease-in-out; /* Agrega transición en hover */
+    transition: filter 0.3s ease-in-out, transform 0.3s ease-in-out;
 }
 
 /* Efecto hover: escala de grises y zoom */
@@ -129,8 +129,8 @@ h2 {
 
 /* Estilos del pie de página */
 footer {
-    background-color: #222; /* Fondo oscuro */
-    color: #bbb; /* Texto en gris claro */
+    background-color: #222;
+    color: #bbb;
     text-align: center;
     padding: 15px;
     margin-top: auto;
@@ -140,11 +140,11 @@ footer {
 /* Contenedor del logo dentro del footer */
 .logo_container { 
     align-items: center;
-    gap: 10px; /* Espaciado entre el logo y el texto */
+    gap: 10px;
 }
 
 .logo_container img {
-    max-width: 100px; /* Ajuste de tamaño máximo del logo */
+    max-width: 100px;
     height: auto;
 }
 
@@ -161,7 +161,7 @@ footer {
     }
     
     .logo_container img {
-        max-width: 80px; /* Reduce el tamaño del logo en dispositivos pequeños */
+        max-width: 80px;
     }
 
     .logo_container span {
