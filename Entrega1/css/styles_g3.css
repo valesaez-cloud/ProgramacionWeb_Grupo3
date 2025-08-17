@@ -114,7 +114,8 @@ h2 {
 .categorias > div img {
     display: block;
     flex: 0 1 220px;
-    margin: 0 auto;
+    margin: 10px auto;
+    text-align: center;
     aspect-ratio: 16/9;
     width: auto;
     max-width: 250px;
