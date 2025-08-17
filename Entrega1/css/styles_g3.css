@@ -48,7 +48,7 @@ nav {
     margin-right: 2%;
 }
 nav a {
-    color: rgb(0, 0, 0);
+    color: rgb(0, 0, 0, 0);
     text-decoration: none; /* Elimina el subrayado de los enlaces */
     margin: 0 15px;
     font-weight: bold;
@@ -58,7 +58,7 @@ nav a {
 h2 {
     margin-top: 5%;
     font-size: 1.6em;
-    color: #6f5c50; /* Color plomo*/
+    color: rgb(0, 0, 0, 0); /* Color plomo*/
 }
 
 /* Contenedor del logo */
