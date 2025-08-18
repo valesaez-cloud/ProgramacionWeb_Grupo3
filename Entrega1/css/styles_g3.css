@@ -92,6 +92,8 @@ h2 {
 .categorias {
     display: flex;
     justify-content: center;
+    gap: 24px;
+    margin: 80px auto 56px;
     flex-wrap: wrap; /* Permite que las categorías se ajusten en varias filas */
     padding: 2% 0; /* Espaciado superior e inferior */
 }
