@@ -95,7 +95,6 @@ h2 {
     justify-content: center;
     flex-wrap: wrap; /* Permite que las categorías se ajusten en varias filas */
     padding: 2% 0; /* Espaciado superior e inferior */
-    text-aling: center;
 }
 
 /* Estilos de cada categoría */
