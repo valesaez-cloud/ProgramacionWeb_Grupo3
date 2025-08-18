@@ -14,25 +14,28 @@ html, body {
     margin: 0;
     padding: 0;
     text-align: center;
+    display: flex;
+    flex-direction: column;
     min-height: 100vh;
     height: 100%;
 } 
 
 body {
-    padding-top: 80px;
+    padding-top: 80px; /* Añade espacio en la parte superior para que el contenido no quede oculto por el header */
 }
 
 /* Estilos del encabezado */
 header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    display: flex; /* Usa flexbox para organizar los elementos */
+    justify-content: space-between; /* Distribuye los elementos a los extremos */
+    align-items: center; /* Alinea los elementos verticalmente */
     padding: 15px;
-    background: linear-gradient(180deg, #2b2b2b 0%, #1a1a1a 50%, #000000 100%);
-    position: fixed;
+    background: linear-gradient(180deg, rgba(255, 152, 0, 1), rgba(255, 87, 34, 1)); /* Degradado naranja */
+    position: fixed; /* Fija el encabezado en la parte superior */
+    width: 100%;
     top: 0;
     left: 0;
-    z-index: 1000;
+    z-index: 1000; /* Asegura que esté por encima de otros elementos */
 }
  
 /* Ajusta la imagen dentro del header */
@@ -45,12 +48,11 @@ nav {
     margin-right: 2%;
 }
 nav a {
-    color: silver;
-    text-decoration: none;
+    color: rgb(0, 0, 0);
+    text-decoration: none; /* Elimina el subrayado de los enlaces */
     margin: 0 15px;
     font-weight: bold;
 }
-
 h1 {
     font-size: 2.0em;  /* más grande */
     margin: 0;
@@ -60,13 +62,13 @@ h1 {
 h2 {
     margin-top: 5%;
     font-size: 1.6em;
-    color: silver;
+    color: #ff5722; /* Color naranja */
 }
 
 /* Contenedor del logo */
 .logo_container { 
     position: center;
-    font-size: 3.3em; 
+    font-size: 1.3em; 
 }
 
 .logo_container span { 
@@ -76,34 +78,31 @@ h2 {
 
 /* Estilos del banner */
 .banner {
-    background-color: rgb(50, 50, 50);
-    height: 70vh;
+    background: url('https://ledbilder.de/cdn/shop/collections/1_2_Uebersicht.jpg?v=1738255020&width=2048') no-repeat center center/cover; /* Imagen de fondo */
+    height: 400px; /* Altura del banner */
     display: flex;
     align-items: center;
     justify-content: center;
     font-size: 30px;
     font-weight: bold;
-    flex-shrink: 0;
+    flex-shrink: 0; /* Evita que el banner se reduzca */
 }
 
 /* Contenedor de categorías */
 .categorias {
-  display: flex;
-  justify-content: center;   /* centra horizontal */
-  align-items: flex-start;   /* alinea arriba */
-  flex-wrap: wrap;           /* baja a otra línea si no caben */
-  gap: 20px;                 /* espacio entre elementos */
-  margin: 40px auto;
-  text-align: center; 
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; /* Permite que las categorías se ajusten en varias filas */
+    padding: 2% 0; /* Espaciado superior e inferior */
 }
 
 /* Estilos de cada categoría */
-.categorias > div {
+.categorias > div{
     margin: 15px;
-    width: 220px;
+    width: 200px;
     border-radius: 20px; /* Bordes redondeados */
     overflow: hidden;
-    cursor: pointer;
+    cursor: pointer; /* Cambia el cursor al pasar por encima */
 }
 .categorias > div img {
     width: 100%;
@@ -112,21 +111,20 @@ h2 {
 }
 
 /* Efecto hover: escala de grises y zoom */
-.categorias > div:hover img {
+.categorias >div:hover img {
     filter: grayscale(100%);
     transform: scale(1.1);
 }
 .categorias h3 { 
     padding: 10px;
-    color: #ffb347;  
     margin: 0;
     font-size: 1em;
 }
 
 /* Estilos del pie de página */
 footer {
-    background-color: #222;
-    color: #bbb;
+    background-color: #222; /* Fondo oscuro */
+    color: #bbb; /* Texto en gris claro */
     text-align: center;
     padding: 15px;
     margin-top: auto;
@@ -136,11 +134,11 @@ footer {
 /* Contenedor del logo dentro del footer */
 .logo_container { 
     align-items: center;
-    gap: 10px;
+    gap: 10px; /* Espaciado entre el logo y el texto */
 }
 
 .logo_container img {
-    max-width: 100px;
+    max-width: 100px; /* Ajuste de tamaño máximo del logo */
     height: auto;
 }
 
@@ -157,11 +155,10 @@ footer {
     }
     
     .logo_container img {
-        max-width: 80px;
+        max-width: 80px; /* Reduce el tamaño del logo en dispositivos pequeños */
     }
 
     .logo_container span {
         font-size: 1.2em;
     }
-
 }
