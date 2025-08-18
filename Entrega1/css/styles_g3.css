@@ -91,19 +91,19 @@ h2 {
 
 /* Contenedor de categorías */
 .categorias {
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    margin: 24px auto 48px;  
-    flex-wrap: wrap; /* Permite que las categorías se ajusten en varias filas */
-    padding: 2% 0; /* Espaciado superior e inferior */
-    text-align: center; 
+  display: flex;
+  justify-content: center;   /* centra horizontal */
+  align-items: flex-start;   /* alinea arriba */
+  flex-wrap: wrap;           /* baja a otra línea si no caben */
+  gap: 20px;                 /* espacio entre elementos */
+  margin: 40px auto;
+  text-align: center; 
 }
 
 /* Estilos de cada categoría */
 .categorias > div {
     margin: 15px;
-    width: 200px;
+    width: 220px;
     border-radius: 20px; /* Bordes redondeados */
     overflow: hidden;
     cursor: pointer;
