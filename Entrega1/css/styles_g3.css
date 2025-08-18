@@ -93,8 +93,11 @@ h2 {
 .categorias {
     display: flex;
     justify-content: center;
+    align-items: flex-start;
+    margin: 24px auto 48px;  
     flex-wrap: wrap; /* Permite que las categorías se ajusten en varias filas */
     padding: 2% 0; /* Espaciado superior e inferior */
+    text-align: center; 
 }
 
 /* Estilos de cada categoría */
