@@ -92,9 +92,9 @@ h2 {
 /* Contenedor de categorías */
 .categorias {
     display: flex;
-    align-items: center; 
-    gap: 22px
-    margin: 32px auto 56px;
+    justify-content: center; 
+    gap: 40px
+    margin-top: 30px;
     flex-wrap: wrap;
     padding: 0 16px;
     text-aling: center;
